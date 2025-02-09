@@ -14,7 +14,3 @@ if __name__ == "__main__":
     window = button_holder()
     window.show()
     app.exec()
-
-
-
-        
