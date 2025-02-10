@@ -9,6 +9,9 @@ class button_holder(QMainWindow):
 
         self.setCentralWidget(button)
 
+    def button_clicked(self):
+        print("Button clicked!")
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = button_holder()
